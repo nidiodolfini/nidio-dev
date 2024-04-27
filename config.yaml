@@ -1,6 +1,6 @@
 baseURL: ""
 languageCode: en-us
-title: Nidio Dolfini
+# title: Nidio Dolfini
 theme: ["PaperMod"]
 author: Nidio Dolfini
 homepage: https://nidio.dev/
