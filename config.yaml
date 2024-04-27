@@ -3,9 +3,10 @@ languageCode: en-us
 title: Nidio Dolfini
 theme: ["PaperMod"]
 author: Nidio Dolfini
+homepage: https://nidio.dev/
 
 params:
-  # ShowBreadCrumbs: true
+  ShowBreadCrumbs: true
   env: production
   ShowReadingTime: true
   DateFormat: "January 2, 2006"
@@ -36,11 +37,15 @@ params:
 
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 1
+      weight: 2
     - identifier: sobre
       name: Sobre o Nidio
       url: /sobre/
-      weight: 2
+      weight: 3
