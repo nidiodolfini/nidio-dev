@@ -15,7 +15,7 @@ fullPostContent = true
 singleDateFormat = "Mon, Jan 2, 2006"
 title = "I'm Nidio Dolfini"
 author = "Nidio Dolfini"
-description = "You don't start out writing good stuff."
+description = "You don't start out writing good stuff. You start out writing crap and thinking it's good stuff... —Octavia Butler"
 profilePicture = "images/nidio.jpg"
 
 [[params.socialIcons]]
