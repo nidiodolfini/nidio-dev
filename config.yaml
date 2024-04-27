@@ -6,7 +6,7 @@ author: Nidio Dolfini
 homepage: https://nidio.dev/
 
 params:
-  ShowBreadCrumbs: true
+  # ShowBreadCrumbs: true
   env: production
   ShowReadingTime: true
   DateFormat: "January 2, 2006"
