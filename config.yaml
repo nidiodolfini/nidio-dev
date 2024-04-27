@@ -1,0 +1,46 @@
+baseURL: ""
+languageCode: en-us
+title: Nidio Dolfini
+theme: ["PaperMod"]
+author: Nidio Dolfini
+
+params:
+  ShowBreadCrumbs: true
+  env: production
+  ShowReadingTime: true
+  DateFormat: "January 2, 2006"
+
+  profileMode:
+    enabled: true
+    title: "You don't start out writing good stuff." # optional default will be site title
+    subtitle: "Website criado para documentar minhas aventuras com Go, mas também irei escrever sobre Kubernetes, AWS e a sopa de letrinhas que conheço ou fuço dentro do DevOps"
+    imageUrl: "img/gopher2.png" # optional
+    imageTitle: "Gopher programando" # optional
+    imageWidth: 400 # custom size
+    imageHeight: 400   # custom size
+    buttons:
+      - name: Blog
+        url: "/blog"
+      - name: Sobre
+        url: "/sobre"
+
+  socialIcons: # optional
+  - name: "github"
+    url: "https://github.com/nidiodolfini"
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/nidiodolfini/"
+  - name: "dev"
+    url: "https://dev.to/nidio"
+  - name: "email"
+    url: "mailto:nidio@dolfini.dev"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 1
+    - identifier: sobre
+      name: Sobre o Nidio
+      url: /sobre/
+      weight: 2
