@@ -1,10 +1,17 @@
----
-title: Hello World!!!
-date: 2024-04-27
-draft: false
-author: Nidio Dolfini
-tags: [ "Go", "HUGO", "DevOps", "GitHub"]
----
++++
+title = "Helloworld"
+date = "2024-04-27T12:30:15-03:00"
+#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+author = "Nidio Dolfini"
+authorTwitter = "nidiodolfini" #do not include @
+cover = ""
+tags = ["DevOps", "Go", "Hello World"]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
+hideComments = false
++++
 Hey pessoal! Não poderia deixar passar a tradição de começar com um 'Hello World' ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!
 
 Agora, sobre este blog... Bem, já tentei criar e manter blogs várias vezes, mas nunca consegui levar adiante. Mas desta vez, prometo que será diferente. Aqui vou compartilhar todos os perrengues e desafios que costumo anotar no Notion ou em qualquer aplicativo semelhante. Vou documentar minhas batalhas ao aprender ou implementar tecnologias, ou mesmo ao escrever em diferentes linguagens. Porque vamos ser honestos, raramente as coisas saem perfeitas como nos tutoriais online, né? E quando tentamos adaptar para nossa realidade, a coisa complica ainda mais.

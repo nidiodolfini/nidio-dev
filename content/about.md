@@ -1,52 +1,46 @@
 ---
-title: "Nidio Dolfini"
-Description: "DevOps Engineer"
+title: "Sobre"
+subtile: "DevOps Engineer"
 # layout: "about"
-tags: [ "Kubernetes", "Docker", "AWS", "Helm", "Istio", "Velero", "Linux", "CI/CD", "Ansible", "Terraform", "Grafana", "Prometheus", "FinOps" , "GitHub"]
+# tags: [ "Kubernetes", "Docker", "AWS", "Helm", "Istio", "Velero", "Linux", "CI/CD", "Ansible", "Terraform", "Grafana", "Prometheus", "FinOps" , "GitHub"]
 ShowReadingTime: false
 ---
 
-*Formado em Sistemas de Informação, com pós-graduação em Projeto de Redes e Computação em Nuvem. Com mais de 14 anos de experiência em Tecnologia da Informação, tendo atuado em empresas do segmento Educacional e Tecnológico, onde durante 7 anos fui coordenador de TI.
-Atualmente, sou engenheiro DevOps trabalhando com Kubernetes, Docker, Amazon Web Services, Google Cloud Platform, Linux e Infraestrutura como código com Terraform e Ansible. Além disso, tenho estudado práticas de FinOps e SRE.
-Minha experiência anterior como coordenador de TI me permitiu adquirir habilidades de liderança, gerenciamento de projetos e comunicação eficaz com equipes multidisciplinares. Já como engenheiro DevOps, meu foco é em ajudar a equipe a construir e manter uma infraestrutura confiável e escalável, ao mesmo tempo em que impulsiona a inovação e a entrega de software.
-Estou sempre em busca de aprender e me aprimorar em novas tecnologias e práticas para participar de projetos desafiadores e inovadores, aplicando as melhores práticas do mercado e ajudando as empresas a alcançarem seus objetivos de negócio.*
+ Com mais de 16 anos de estrada em TI, minha jornada nos últimos anos foi um pouco fora da curva. Eu saí da liderança de equipes como coordenador de TI — o que me deu uma bagagem incrível sobre gestão e pessoas — para mergulhar de cabeça no universo DevOps e "sujar as mãos" com o que há de mais moderno em infraestrutura.
+
+Hoje, meu dia a dia envolve Kubernetes, AWS e automação com Terraform e Ansible. Gosto de pensar em como construir sistemas que não sejam apenas poderosos e escaláveis, mas também inteligentes com seus custos. É o tal do FinOps, que venho estudando e aplicando, sempre buscando economizar aqueles centavos em cada pod, node ou em outras partes da nuvem. Ultimamente, tenho explorado Python e Go para criar algumas aplicações próprias e otimizar tarefas do dia a dia.
+
+Acredito que a melhor tecnologia é aquela que resolve problemas reais e impulsiona o negócio.
+
+Além do código e dos terminais, também curto muito compartilhar o que aprendo, seja dando aulas sobre nuvem e DevOps, conversando com pessoas para ajudar com problemas técnicos ou, mais recentemente, me aventurando na escrita. A tecnologia está sempre mudando, e essa é a parte mais divertida! Estou sempre em busca de novos desafios e de projetos onde eu possa colaborar e aprender.
 
 ---
-
-> ### [MedGrupo](https://medgrupo.com.br/)
->
->#### Engenheiro DevOps
->
->##### Mar 2023 - Presente
-
-- Deploy e troubleshooting de ambiente conteinerizado com Kubernetes.
-- Automatização de infraestrutura como código - IaC com Terraform e Ansible.
+### [MedGrupo](https://medgrupo.com.br/)
+#### Engenheiro DevOps
+##### Mar 2023 - Presente
 - Gerenciamento ambiente AWS.
+- Gestão e implementação de clusters EKS na AWS, orquestrando aplicações e microsserviços com alta disponibilidade.
+- Arquitetura e implementação da infraestrutura EKS na AWS, incluindo a configuração de IAM (Roles e Policies) e a definição estratégica dos tipos de nodes.
+- Implementação de service mesh com Istio, incluindo a configuração de Virtual Services para regras de entrada e roteamento avançado de tráfego.
 - Resolução de problemas e automatização de tarefas utilizando scripts.
-- FinOps redução de gastos na AWS e nos cluster Kubernetes
 
 ---
 
-> ### [Editora Packt](https://www.packtpub.com/)
->
->#### Revisor técnico
->
->##### Jan 2023 - Jul 2023
+### [Editora Packt](https://www.packtpub.com/)
+#### Revisor técnico
+##### Jan 2023 - Jul 2023
 
-- Fiz revisão técnica do livro, Strategizing Continuous Delivery in Cloud: Implement continuous delivery using modern cloud native technology, o livro aborda maneiras e estratégias para planejar e implementar a entrega contínua
-
----
-
-> ### [Digital House Brasil](https://www.digitalhouse.com/br)
->
->#### Instrutor
->
->##### Oct 2021 - Apr 2023
-
-- Instrução dos módulos: Introdução a computação em nuvem com Amazon Web Services, Containers com Docker, Orquestração de containers com Kubernetes, Infraestrutura como código com Terraform e Ansible.
-- Conteúdo lecionado: Amazon Web Services, DevOps, Infraestrutura como código, Docker, Kubernetes, Ansible, Terraform, Jenkins e GitLab.
-- Auxílio aos alunos no desenvolvimento dos projetos.
+- Atuei como Revisor Técnico para o livro "Strategizing Continuous Delivery in Cloud", garantindo a precisão conceitual, a funcionalidade dos exemplos de código e a clareza do conteúdo para o leitor.
+- Contribuí com insights de mercado para enriquecer o material, contextualizando a importância e os casos de uso de estratégias de CI/CD com exemplos do mundo real, mostrando como e por que as empresas adotam essa abordagem.
 
 ---
 
+### [Digital House Brasil](https://www.digitalhouse.com/br)
+#### Instrutor
+##### Oct 2021 - Apr 2023
+
+- Capacitei mais de 700 alunos ao longo de 11 turmas em tecnologias de Cloud e DevOps, abrangendo AWS, Kubernetes, Docker, Terraform e Ansible.
+- Adaptei a metodologia de ensino para um público diversificado, incluindo iniciantes, recém-formados e profissionais em transição de carreira (advogados, psicólogos, etc.), garantindo a compreensão dos conceitos técnicos.
+- Mentorei alunos de desenvolvimento Java na criação da infraestrutura para seus projetos, aplicando conhecimentos em EC2, Docker e implementações de Kubernetes com kubeadm.
+---
 #### Se quiser saber mais [LinkedIn](https://www.linkedin.com/in/nidiodolfini/)

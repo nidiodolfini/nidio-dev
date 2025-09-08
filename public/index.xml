@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nidio Dolfini</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Nidio Dolfini</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <title>Nidio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Nidio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Apr 2024 12:30:15 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World!!!</title>
-      <link>//localhost:1313/posts/helloworld/</link>
-      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/helloworld/</guid>
-      
-        <description>Hey pessoal! Não poderia deixar passar a tradição de começar com um &amp;lsquo;Hello World&amp;rsquo; ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!</description>
-      
+      <title>Helloworld</title>
+      <link>http://localhost:1313/posts/helloworld/</link>
+      <pubDate>Sat, 27 Apr 2024 12:30:15 -0300</pubDate>
+      <guid>http://localhost:1313/posts/helloworld/</guid>
+      <description>&lt;p&gt;Hey pessoal! Não poderia deixar passar a tradição de começar com um &amp;lsquo;Hello World&amp;rsquo; ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Nidio Dolfini</title>
-      <link>//localhost:1313/about/</link>
+      <title>Sobre</title>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/about/</guid>
-      
-        <description>DevOps Engineer</description>
-      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Com mais de 16 anos de estrada em TI, minha jornada nos últimos anos foi um pouco fora da curva. Eu saí da liderança de equipes como coordenador de TI — o que me deu uma bagagem incrível sobre gestão e pessoas — para mergulhar de cabeça no universo DevOps e &amp;ldquo;sujar as mãos&amp;rdquo; com o que há de mais moderno em infraestrutura.&lt;/p&gt;&#xA;&lt;p&gt;Hoje, meu dia a dia envolve Kubernetes, AWS e automação com Terraform e Ansible. Gosto de pensar em como construir sistemas que não sejam apenas poderosos e escaláveis, mas também inteligentes com seus custos. É o tal do FinOps, que venho estudando e aplicando, sempre buscando economizar aqueles centavos em cada pod, node ou em outras partes da nuvem. Ultimamente, tenho explorado Python e Go para criar algumas aplicações próprias e otimizar tarefas do dia a dia.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
