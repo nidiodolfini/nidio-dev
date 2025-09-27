@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "categories": [
+    "blog",
+    "technology",
+    "education"
+  ],
+  "description": "Site pessoal de desenvolvimento e tecnologia",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "any",
+      "src": "/favicon.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "pt-BR",
+  "name": "Nidio Dev",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "Nidio Dev",
+  "start_url": "/",
+  "theme_color": "#09090b"
+}

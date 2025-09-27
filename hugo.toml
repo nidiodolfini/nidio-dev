@@ -1,0 +1,243 @@
+baseURL = 'https://nidio.dev/'
+languageCode = 'pt-BR'
+defaultContentLanguage = 'pt'
+title = 'Nidio Dev'
+theme = 'hugo-narrow'
+
+hasCJKLanguage = false
+enableEmoji = true
+
+[permalinks]
+posts = '/posts/:slug/'
+pages = '/:slug/'
+
+[pagination]
+pagerSize = 6
+path = 'page'
+
+[taxonomies]
+category = 'categories'
+tag = 'tags'
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+[menus.main.params]
+icon = 'posts'
+
+[[menus.main]]
+name = 'Categorias'
+pageRef = '/categories'
+weight = 30
+[menus.main.params]
+icon = 'categories'
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 40
+[menus.main.params]
+icon = 'tags'
+
+[[menus.main]]
+name = 'Arquivo'
+pageRef = '/archives'
+weight = 50
+[menus.main.params]
+icon = 'archive'
+
+[[menus.footer]]
+name = 'Sobre'
+pageRef = '/about'
+weight = 10
+[menus.footer.params]
+icon = 'about'
+
+[[menus.footer]]
+name = 'Contato'
+url = 'mailto:contato@nidio.dev'
+weight = 20
+[menus.footer.params]
+icon = 'contact'
+
+[[menus.footer]]
+name = 'RSS Feed'
+url = '/index.xml'
+weight = 30
+[menus.footer.params]
+icon = 'rss'
+
+[[menus.social]]
+name = 'GitHub'
+url = 'https://github.com/nidio'
+weight = 10
+[menus.social.params]
+icon = 'github'
+
+[[menus.social]]
+name = 'LinkedIn'
+url = 'https://linkedin.com/in/nidio'
+weight = 20
+[menus.social.params]
+icon = 'linkedin'
+
+[[menus.social]]
+name = 'Email'
+url = 'mailto:contato@nidio.dev'
+weight = 30
+[menus.social.params]
+icon = 'email'
+
+[params]
+description = 'Site pessoal de desenvolvimento e tecnologia'
+keywords = ['Desenvolvimento', 'Tecnologia', 'Programming', 'Web Development']
+defaultAuthor = 'Nidio'
+language = 'pt-BR'
+shortName = 'Nidio Dev'
+images = ['/images/og-default.avif']
+
+[params.logo]
+image = '/images/logo.svg'
+link = '/'
+
+[params.favicon]
+svg = '/favicon.svg'
+
+[params.author]
+name = 'Nidio'
+title = 'Desenvolvedor Full Stack'
+description = 'Apaixonado por tecnologia e desenvolvimento web.'
+avatar = '/images/avatar.svg'
+
+[[params.author.social]]
+name = 'GitHub'
+url = 'https://github.com/nidio'
+icon = 'github'
+
+[[params.author.social]]
+name = 'LinkedIn'
+url = 'https://linkedin.com/in/nidio'
+icon = 'linkedin'
+
+[[params.author.social]]
+name = 'Email'
+url = 'mailto:contato@nidio.dev'
+icon = 'email'
+
+# UI Components Control
+showThemeSwitch = true
+showDarkModeSwitch = true
+showLanguageSwitch = false
+languageSwitchMode = 'dropdown'
+stickyHeader = true
+dock = 'float'
+colorScheme = 'default'
+
+[params.themes.default]
+name = 'Default'
+order = 1
+
+[params.themes.claude]
+name = 'Claude'
+order = 2
+
+[params.themes.emerald]
+name = 'Emerald'
+order = 3
+
+[params.themes.nord]
+name = 'Nord'
+order = 4
+
+[params.themes.sunset]
+name = 'Sunset'
+order = 5
+
+[params.themes.dracula]
+name = 'Dracula'
+order = 6
+
+[params.home]
+recentPostsCount = 5
+
+[params.post]
+showRelated = true
+relatedPostsCount = 3
+
+[params.post.license]
+show = true
+author = 'Nidio'
+name = 'CC BY-NC-SA 4.0'
+description = 'Este trabalho está licenciado sob uma Licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional.'
+url = 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+displayName = 'CC BY-NC-SA 4.0'
+
+[params.comments]
+enabled = false
+system = 'giscus'
+
+[params.analytics]
+enabled = false
+
+[params.katex]
+enabled = true
+
+[[params.katex.delimiters]]
+left = '$$'
+right = '$$'
+display = true
+
+[[params.katex.delimiters]]
+left = '$'
+right = '$'
+display = false
+
+[params.mermaid]
+enabled = true
+
+[params.lightbox]
+enabled = true
+loop = true
+width = '80vw'
+height = '80vh'
+
+[params.codeblock.collapse]
+enabled = true
+defaultState = 'expanded'
+autoCollapseLines = 30
+
+[params.readingProgress]
+enabled = true
+height = 3
+showOnHomepage = false
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+ordered = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+lineNos = false
+lineNumbersInTable = false
+noClasses = false
+style = 'github'
+tabWidth = 2
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON', 'WebAppManifest']
+
+[outputFormats.WebAppManifest]
+mediaType = 'application/manifest+json'
+baseName = 'site'
+isPlainText = true
+
+[module]
+[module.hugoVersion]
+extended = true
+min = '0.146.0'
