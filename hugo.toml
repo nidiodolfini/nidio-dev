@@ -84,7 +84,7 @@ shortName = 'Nidio'
 # images = ['/images/og-default.avif']
 
 [params.logo]
-image = '/images/logo.svg'
+image = ''
 link = '/'
 
 [params.favicon]
