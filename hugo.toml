@@ -1,7 +1,7 @@
 baseURL = 'https://nidio.dev/'
 languageCode = 'pt-BR'
 defaultContentLanguage = 'pt'
-title = 'Nidio Dev'
+title = 'Nidio Dolfini'
 theme = 'hugo-narrow'
 
 hasCJKLanguage = false
@@ -18,6 +18,13 @@ path = 'page'
 [taxonomies]
 category = 'categories'
 tag = 'tags'
+
+[[menus.main]]
+name = 'Sobre'
+pageRef = '/about'
+weight = 10
+[menus.main.params]
+icon = 'about'
 
 [[menus.main]]
 name = 'Posts'
@@ -47,55 +54,34 @@ weight = 50
 [menus.main.params]
 icon = 'archive'
 
-[[menus.footer]]
-name = 'Sobre'
-pageRef = '/about'
-weight = 10
-[menus.footer.params]
-icon = 'about'
-
-[[menus.footer]]
-name = 'Contato'
-url = 'mailto:contato@nidio.dev'
-weight = 20
-[menus.footer.params]
-icon = 'contact'
-
-[[menus.footer]]
-name = 'RSS Feed'
-url = '/index.xml'
-weight = 30
-[menus.footer.params]
-icon = 'rss'
-
 [[menus.social]]
 name = 'GitHub'
-url = 'https://github.com/nidio'
+url = 'https://github.com/nidiodolfini'
 weight = 10
 [menus.social.params]
 icon = 'github'
 
 [[menus.social]]
 name = 'LinkedIn'
-url = 'https://linkedin.com/in/nidio'
+url = 'https://linkedin.com/in/nidiodolfini'
 weight = 20
 [menus.social.params]
 icon = 'linkedin'
 
 [[menus.social]]
 name = 'Email'
-url = 'mailto:contato@nidio.dev'
+url = 'mailto:nidio@dolfini.dev'
 weight = 30
 [menus.social.params]
 icon = 'email'
 
 [params]
 description = 'Site pessoal de desenvolvimento e tecnologia'
-keywords = ['Desenvolvimento', 'Tecnologia', 'Programming', 'Web Development']
-defaultAuthor = 'Nidio'
+keywords = ['DevOps', 'Tecnologia', 'Programming', 'Cloud']
+defaultAuthor = 'Nidio Dolfini'
 language = 'pt-BR'
-shortName = 'Nidio Dev'
-images = ['/images/og-default.avif']
+shortName = 'Nidio'
+# images = ['/images/og-default.avif']
 
 [params.logo]
 image = '/images/logo.svg'
@@ -105,24 +91,25 @@ link = '/'
 svg = '/favicon.svg'
 
 [params.author]
-name = 'Nidio'
-title = 'Desenvolvedor Full Stack'
-description = 'Apaixonado por tecnologia e desenvolvimento web.'
-avatar = '/images/avatar.svg'
+name = 'Nidio Dolfini'
+title = 'Um blog sobre tecnologias do meu o dia a dia'
+description = '“Ninguém começa escrevendo bem. No começo, você escreve um lixo, mas acha que está ótimo… " - Octavia Butler'
+# avatar = '/images/avatar.svg'
+showAvatar = false
 
 [[params.author.social]]
 name = 'GitHub'
-url = 'https://github.com/nidio'
+url = 'https://github.com/nidiodolfini'
 icon = 'github'
 
 [[params.author.social]]
 name = 'LinkedIn'
-url = 'https://linkedin.com/in/nidio'
+url = 'https://linkedin.com/in/nidiodolfini'
 icon = 'linkedin'
 
 [[params.author.social]]
 name = 'Email'
-url = 'mailto:contato@nidio.dev'
+url = 'mailto:nidio@dolfini.dev'
 icon = 'email'
 
 # UI Components Control
@@ -138,25 +125,13 @@ colorScheme = 'default'
 name = 'Default'
 order = 1
 
-[params.themes.claude]
-name = 'Claude'
-order = 2
-
-[params.themes.emerald]
-name = 'Emerald'
-order = 3
-
 [params.themes.nord]
 name = 'Nord'
-order = 4
-
-[params.themes.sunset]
-name = 'Sunset'
-order = 5
+order = 2
 
 [params.themes.dracula]
 name = 'Dracula'
-order = 6
+order = 3
 
 [params.home]
 recentPostsCount = 5
@@ -166,8 +141,8 @@ showRelated = true
 relatedPostsCount = 3
 
 [params.post.license]
-show = true
-author = 'Nidio'
+show = false
+author = 'Nidio Dolfini'
 name = 'CC BY-NC-SA 4.0'
 description = 'Este trabalho está licenciado sob uma Licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional.'
 url = 'https://creativecommons.org/licenses/by-nc-sa/4.0/'

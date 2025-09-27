@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bem-vindo ao Nidio Dev on Nidio Dev</title>
+    <title>Bem-vindo ao Nidio Dev on Nidio Dolfini</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Bem-vindo ao Nidio Dev on Nidio Dev</description>
+    <description>Recent content in Bem-vindo ao Nidio Dev on Nidio Dolfini</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sat, 27 Jan 2024 10:00:00 -0300</lastBuildDate>
@@ -27,7 +27,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;sobre-mim&#34;&gt;Sobre Mim&lt;/h1&gt;&#xA;&lt;p&gt;Olá! Sou o Nidio, um desenvolvedor full stack apaixonado por criar soluções inovadoras e eficientes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;minha-jornada&#34;&gt;Minha Jornada&lt;/h2&gt;&#xA;&lt;p&gt;Comecei minha jornada no desenvolvimento há alguns anos e desde então tenho me dedicado a aprender e aplicar as melhores práticas da área. Acredito que a tecnologia tem o poder de transformar vidas e negócios.&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiência&#34;&gt;Experiência&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Especializado em React, Vue.js e TypeScript&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Experiência com Node.js, Python e Go&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Banco de Dados&lt;/strong&gt;: PostgreSQL, MongoDB, Redis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;DevOps&lt;/strong&gt;: Docker, Kubernetes, AWS, CI/CD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;filosofia&#34;&gt;Filosofia&lt;/h2&gt;&#xA;&lt;p&gt;Acredito em:&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;sobre-mim&#34;&gt;Sobre Mim&lt;/h1&gt;&#xA;&lt;p&gt;Com mais de 16 anos de estrada em TI, minha jornada nos últimos anos foi um pouco fora da curva. Eu saí da liderança de equipes como coordenador de TI — o que me deu uma bagagem incrível sobre gestão e pessoas — para mergulhar de cabeça no universo DevOps e &amp;ldquo;sujar as mãos&amp;rdquo; com o que há de mais moderno em infraestrutura.&lt;/p&gt;&#xA;&lt;p&gt;Hoje, meu dia a dia envolve Kubernetes, AWS e automação com Terraform e Ansible. Gosto de pensar em como construir sistemas que não sejam apenas poderosos e escaláveis, mas também inteligentes com seus custos. É o tal do FinOps, que venho estudando e aplicando, sempre buscando economizar aqueles centavos em cada pod, node ou em outras partes da nuvem. Ultimamente, tenho explorado Python e Go para criar algumas aplicações próprias e otimizar tarefas do dia a dia.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

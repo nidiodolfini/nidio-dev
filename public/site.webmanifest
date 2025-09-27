@@ -16,10 +16,10 @@
     }
   ],
   "lang": "pt-BR",
-  "name": "Nidio Dev",
+  "name": "Nidio Dolfini",
   "orientation": "portrait-primary",
   "scope": "/",
-  "short_name": "Nidio Dev",
+  "short_name": "Nidio",
   "start_url": "/",
   "theme_color": "#09090b"
 }
