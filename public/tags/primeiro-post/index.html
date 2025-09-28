@@ -2,7 +2,7 @@
 <html
   lang="pt-BR"
   data-theme="default">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -17,7 +17,7 @@
 <meta name="language" content="pt-BR" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="http://localhost:1313/tags/primeiro-post/" />
+<link rel="canonical" href="http://localhost:1314/tags/primeiro-post/" />
 
 
 
@@ -26,7 +26,7 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="http://localhost:1313/tags/primeiro-post/">
+<meta property="og:url" content="http://localhost:1314/tags/primeiro-post/">
   <meta property="og:site_name" content="Nidio Dolfini">
   <meta property="og:title" content="Primeiro-Post">
   <meta property="og:description" content="Site pessoal de desenvolvimento e tecnologia">
@@ -50,7 +50,7 @@
     rel="alternate"
     type="application/rss+xml"
     title="Nidio Dolfini"
-    href="http://localhost:1313/tags/primeiro-post/index.xml" />
+    href="http://localhost:1314/tags/primeiro-post/index.xml" />
 
 
 
@@ -138,6 +138,10 @@
 
 
 
+  
+    <link rel="stylesheet" href="/css/custom/header.css" />
+  
+
 
 
 
@@ -195,7 +199,7 @@
       
       (function() {
         const theme = localStorage.getItem('theme') || 'system';
-        const colorScheme = localStorage.getItem('colorScheme') || 'shadcn';
+        const colorScheme = localStorage.getItem('colorScheme') || 'default';
 
         
         document.documentElement.setAttribute('data-theme', colorScheme);
@@ -329,7 +333,7 @@
     })();
   </script>
 
-    <header class=" mx-auto max-w-4xl px-4 py-6">
+    <header class="sticky top-0 z-50 mx-auto max-w-4xl px-4 py-6">
   <div
     class="border-border bg-card/80 flex items-center rounded-xl border px-6 py-4 shadow-sm backdrop-blur-sm">
     
@@ -1303,7 +1307,7 @@
 <div
   id="dock"
   class="pointer-events-none fixed bottom-4 left-1/2 z-[9999] w-fit -translate-x-1/2 translate-y-24 opacity-0 transition-all duration-300 ease-out sm:right-0 sm:left-0 sm:mx-auto sm:translate-x-0"
-  data-dock-mode="scroll"
+  data-dock-mode="float"
   role="toolbar"
   aria-label="快捷操作工具栏">
   <nav
@@ -1387,6 +1391,23 @@
 </div>
 
 
+
+<div
+  id="dock-float-trigger"
+  class="pointer-events-auto fixed bottom-0 left-0 right-0 z-[9998] cursor-pointer">
+  <div class="absolute inset-0 bg-gradient-to-t from-muted-foreground/20 to-transparent h-8 transition-all duration-200 ease-out"></div>
+  
+  
+  <div class="relative mx-auto flex h-8 w-12 items-center justify-center">
+    <span id="dock-float-icon">
+      
+  <svg class="h-3 w-3"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z"/></svg>
+    </span>
+  </div>
+</div>
 
 
 

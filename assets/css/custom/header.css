@@ -1,0 +1,29 @@
+/* Custom CSS para garantir header fixo */
+header.sticky {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 50 !important;
+}
+
+/* Garantir que o header tenha backdrop blur */
+header .backdrop-blur-sm {
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* Ajustar espaçamento do conteúdo principal quando header está fixo */
+body {
+  padding-top: 0 !important;
+}
+
+/* Garantir que o main não seja afetado pelo header fixo */
+main {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Ajustar breadcrumb para não ficar colado no header */
+.breadcrumb {
+  margin-top: 0 !important;
+  padding-top: 1rem !important;
+}

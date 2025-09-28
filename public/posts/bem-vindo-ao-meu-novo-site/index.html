@@ -2,7 +2,7 @@
 <html
   lang="pt-BR"
   data-theme="default">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -17,7 +17,7 @@
 <meta name="language" content="pt-BR" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="http://localhost:1313/posts/bem-vindo-ao-meu-novo-site/" />
+<link rel="canonical" href="http://localhost:1314/posts/bem-vindo-ao-meu-novo-site/" />
 
 
 
@@ -26,7 +26,7 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="http://localhost:1313/posts/bem-vindo-ao-meu-novo-site/">
+<meta property="og:url" content="http://localhost:1314/posts/bem-vindo-ao-meu-novo-site/">
   <meta property="og:site_name" content="Nidio Dolfini">
   <meta property="og:title" content="Bem-vindo ao meu novo site!">
   <meta property="og:description" content="Primeiro post do meu site pessoal construído com Hugo e o tema Hugo Narrow">
@@ -140,6 +140,10 @@
 
 
 
+  
+    <link rel="stylesheet" href="/css/custom/header.css" />
+  
+
 
 
 
@@ -201,7 +205,7 @@
       
       (function() {
         const theme = localStorage.getItem('theme') || 'system';
-        const colorScheme = localStorage.getItem('colorScheme') || 'shadcn';
+        const colorScheme = localStorage.getItem('colorScheme') || 'default';
 
         
         document.documentElement.setAttribute('data-theme', colorScheme);
@@ -335,7 +339,7 @@
     })();
   </script>
 
-    <header class=" mx-auto max-w-4xl px-4 py-6">
+    <header class="sticky top-0 z-50 mx-auto max-w-4xl px-4 py-6">
   <div
     class="border-border bg-card/80 flex items-center rounded-xl border px-6 py-4 shadow-sm backdrop-blur-sm">
     
@@ -1214,6 +1218,76 @@
 
 
 
+  <nav
+    class="post-navigation mb-12"
+    aria-label="Navegação de Artigos">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+      
+      <div class="nav-item">
+        
+          <div
+            class="bg-muted/30 border-border/50 flex min-h-[140px] flex-col justify-center rounded-xl border p-6">
+            <div class="mb-3 flex items-center gap-3">
+              
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+</svg>
+              <span class="text-muted-foreground/50 text-sm font-medium">
+                Sem artigo anterior
+              </span>
+            </div>
+            <p class="text-muted-foreground/50 text-sm">
+              Este é o primeiro artigo
+            </p>
+          </div>
+        
+      </div>
+
+      
+      <div class="nav-item">
+        
+          <a
+            href="/posts/hello-world/"
+            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] flex-col justify-between rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+            <div>
+              <div class="mb-3 flex items-center justify-end gap-3">
+                <span class="text-muted-foreground text-sm font-medium">
+                  Próximo
+                </span>
+                
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+</svg>
+              </div>
+
+              <h3
+                class="text-foreground group-hover:text-primary mb-3 line-clamp-2 text-right text-lg leading-tight font-semibold transition-colors duration-200">
+                Hello World
+              </h3>
+            </div>
+
+            <div
+              class="text-muted-foreground mt-auto flex items-center justify-end gap-2 text-xs">
+              <time datetime="2025-09-27">
+                27 jan
+              </time>
+              
+  <svg class="h-3 w-3"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  </nav>
+
 
 
 
@@ -1346,7 +1420,7 @@
 <div
   id="dock"
   class="pointer-events-none fixed bottom-4 left-1/2 z-[9999] w-fit -translate-x-1/2 translate-y-24 opacity-0 transition-all duration-300 ease-out sm:right-0 sm:left-0 sm:mx-auto sm:translate-x-0"
-  data-dock-mode="scroll"
+  data-dock-mode="float"
   role="toolbar"
   aria-label="快捷操作工具栏">
   <nav
@@ -1456,6 +1530,23 @@
 </div>
 
 
+
+<div
+  id="dock-float-trigger"
+  class="pointer-events-auto fixed bottom-0 left-0 right-0 z-[9998] cursor-pointer">
+  <div class="absolute inset-0 bg-gradient-to-t from-muted-foreground/20 to-transparent h-8 transition-all duration-200 ease-out"></div>
+  
+  
+  <div class="relative mx-auto flex h-8 w-12 items-center justify-center">
+    <span id="dock-float-icon">
+      
+  <svg class="h-3 w-3"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z"/></svg>
+    </span>
+  </div>
+</div>
 
 
 

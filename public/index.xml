@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bem-vindo ao Nidio Dev on Nidio Dolfini</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1314/</link>
     <description>Recent content in Bem-vindo ao Nidio Dev on Nidio Dolfini</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 27 Jan 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Sep 2025 22:10:15 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1314/posts/hello-world/</link>
+      <pubDate>Sat, 27 Sep 2025 22:10:15 -0300</pubDate>
+      <guid>http://localhost:1314/posts/hello-world/</guid>
+      <description>&lt;p&gt;Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco.&lt;/p&gt;&#xA;&lt;p&gt;Hey pessoal! Não poderia deixar passar a tradição de começar com um &amp;lsquo;Hello World&amp;rsquo; ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bem-vindo ao meu novo site!</title>
-      <link>http://localhost:1313/posts/bem-vindo-ao-meu-novo-site/</link>
+      <link>http://localhost:1314/posts/bem-vindo-ao-meu-novo-site/</link>
       <pubDate>Sat, 27 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/posts/bem-vindo-ao-meu-novo-site/</guid>
+      <guid>http://localhost:1314/posts/bem-vindo-ao-meu-novo-site/</guid>
       <description>&lt;h1 id=&#34;bem-vindo-ao-meu-novo-site&#34;&gt;Bem-vindo ao meu novo site!&lt;/h1&gt;&#xA;&lt;p&gt;Estou muito animado em lançar meu novo site pessoal! Depois de muito planejamento, finalmente decidi criar um espaço onde posso compartilhar meus conhecimentos, projetos e experiências no mundo do desenvolvimento.&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-que-hugo&#34;&gt;Por que Hugo?&lt;/h2&gt;&#xA;&lt;p&gt;Escolhi o &lt;a href=&#34;https://gohugo.io/&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;Hugo&#xD;&#xA;  &lt;svg id=&#34;external-link&#34; class=&#34;h-3 w-3 flex-shrink-0&#34;&#xD;&#xA;    fill=&#34;none&#34;&#xD;&#xA;    stroke=&#34;currentColor&#34;&#xD;&#xA;    viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt; como gerador de site estático pelas seguintes razões:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arquivo</title>
-      <link>http://localhost:1313/archives/</link>
+      <link>http://localhost:1314/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archives/</guid>
+      <guid>http://localhost:1314/archives/</guid>
       <description>&lt;h1 id=&#34;arquivo-de-posts&#34;&gt;Arquivo de Posts&lt;/h1&gt;&#xA;&lt;p&gt;Aqui você encontra todos os posts organizados cronologicamente.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sobre</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1314/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1314/about/</guid>
       <description>&lt;h1 id=&#34;sobre-mim&#34;&gt;Sobre Mim&lt;/h1&gt;&#xA;&lt;p&gt;Com mais de 16 anos de estrada em TI, minha jornada nos últimos anos foi um pouco fora da curva. Eu saí da liderança de equipes como coordenador de TI — o que me deu uma bagagem incrível sobre gestão e pessoas — para mergulhar de cabeça no universo DevOps e &amp;ldquo;sujar as mãos&amp;rdquo; com o que há de mais moderno em infraestrutura.&lt;/p&gt;&#xA;&lt;p&gt;Hoje, meu dia a dia envolve Kubernetes, AWS e automação com Terraform e Ansible. Gosto de pensar em como construir sistemas que não sejam apenas poderosos e escaláveis, mas também inteligentes com seus custos. É o tal do FinOps, que venho estudando e aplicando, sempre buscando economizar aqueles centavos em cada pod, node ou em outras partes da nuvem. Ultimamente, tenho explorado Python e Go para criar algumas aplicações próprias e otimizar tarefas do dia a dia.&lt;/p&gt;</description>
     </item>
   </channel>

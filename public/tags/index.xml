@@ -2,31 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nidio Dolfini</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1314/tags/</link>
     <description>Recent content in Tags on Nidio Dolfini</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 27 Jan 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Sep 2025 22:10:15 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>http://localhost:1314/tags/devops/</link>
+      <pubDate>Sat, 27 Sep 2025 22:10:15 -0300</pubDate>
+      <guid>http://localhost:1314/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1314/tags/go/</link>
+      <pubDate>Sat, 27 Sep 2025 22:10:15 -0300</pubDate>
+      <guid>http://localhost:1314/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1314/tags/hello-world/</link>
+      <pubDate>Sat, 27 Sep 2025 22:10:15 -0300</pubDate>
+      <guid>http://localhost:1314/tags/hello-world/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
+      <link>http://localhost:1314/tags/blog/</link>
       <pubDate>Sat, 27 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>http://localhost:1314/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>http://localhost:1314/tags/hugo/</link>
       <pubDate>Sat, 27 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>http://localhost:1314/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Primeiro-Post</title>
-      <link>http://localhost:1313/tags/primeiro-post/</link>
+      <link>http://localhost:1314/tags/primeiro-post/</link>
       <pubDate>Sat, 27 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/tags/primeiro-post/</guid>
+      <guid>http://localhost:1314/tags/primeiro-post/</guid>
       <description></description>
     </item>
   </channel>

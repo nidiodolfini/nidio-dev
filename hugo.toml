@@ -83,6 +83,15 @@ language = 'pt-BR'
 shortName = 'Nidio'
 # images = ['/images/og-default.avif']
 
+# UI Components Control
+showThemeSwitch = true
+showDarkModeSwitch = true
+showLanguageSwitch = false
+languageSwitchMode = 'dropdown'
+stickyHeader = true
+dock = 'float'
+colorScheme = 'default'
+
 [params.logo]
 image = ''
 link = '/'
@@ -93,7 +102,7 @@ svg = '/favicon.svg'
 [params.author]
 name = 'Nidio Dolfini'
 title = 'Um blog sobre tecnologias do meu o dia a dia'
-description = '“Ninguém começa escrevendo bem. No começo, você escreve um lixo, mas acha que está ótimo… " - Octavia Butler'
+description = '"Ninguém começa escrevendo bem. No começo, você escreve um lixo, mas acha que está ótimo… " - Octavia Butler'
 # avatar = '/images/avatar.svg'
 showAvatar = false
 
@@ -111,15 +120,6 @@ icon = 'linkedin'
 name = 'Email'
 url = 'mailto:nidio@dolfini.dev'
 icon = 'email'
-
-# UI Components Control
-showThemeSwitch = true
-showDarkModeSwitch = true
-showLanguageSwitch = false
-languageSwitchMode = 'dropdown'
-stickyHeader = true
-dock = 'float'
-colorScheme = 'default'
 
 [params.themes.default]
 name = 'Default'
