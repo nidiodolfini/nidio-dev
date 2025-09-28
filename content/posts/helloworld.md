@@ -11,7 +11,7 @@ description: ""
 showFullContent: false
 readingTime: false
 hideComments: false
-draft: true
+draft: false
 ---
 
 Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco. Mas segue o posts original abaixo...

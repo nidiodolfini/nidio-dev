@@ -6,14 +6,7 @@
     <description>Recent content in Posts on Nidio Dolfini</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 27 Sep 2025 22:10:15 -0300</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sat, 27 Sep 2025 22:10:15 -0300</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco. Mas segue o posts original abaixo&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Hey pessoal! Não poderia deixar passar a tradição de começar com um &amp;lsquo;Hello World&amp;rsquo; ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

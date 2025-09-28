@@ -92,6 +92,7 @@ stickyHeader = true
 dock = 'float'
 colorScheme = 'default'
 
+
 [params.logo]
 image = ''
 link = '/'
