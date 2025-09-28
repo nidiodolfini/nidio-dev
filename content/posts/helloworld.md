@@ -14,7 +14,7 @@ hideComments: false
 draft: false
 ---
 
-Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco.
+Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco. Mas segue o posts original abaixo...
 
 Hey pessoal! Não poderia deixar passar a tradição de começar com um 'Hello World' ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!
 
