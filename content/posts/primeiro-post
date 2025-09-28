@@ -4,7 +4,7 @@ description: "Primeiro post do meu site pessoal construído com Hugo e o tema Hu
 date: 2024-01-27T10:00:00-03:00
 categories: ["Geral"]
 tags: ["hugo", "blog", "primeiro-post"]
-draft: false
+draft: true
 ---
 
 # Bem-vindo ao meu novo site!

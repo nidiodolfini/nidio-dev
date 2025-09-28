@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nidio Dolfini</title>
-    <link>http://localhost:1314/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Nidio Dolfini</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sat, 27 Sep 2025 22:10:15 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1314/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1314/posts/hello-world/</link>
+      <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Sat, 27 Sep 2025 22:10:15 -0300</pubDate>
-      <guid>http://localhost:1314/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco.&lt;/p&gt;&#xA;&lt;p&gt;Hey pessoal! Não poderia deixar passar a tradição de começar com um &amp;lsquo;Hello World&amp;rsquo; ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bem-vindo ao meu novo site!</title>
-      <link>http://localhost:1314/posts/bem-vindo-ao-meu-novo-site/</link>
-      <pubDate>Sat, 27 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1314/posts/bem-vindo-ao-meu-novo-site/</guid>
-      <description>&lt;h1 id=&#34;bem-vindo-ao-meu-novo-site&#34;&gt;Bem-vindo ao meu novo site!&lt;/h1&gt;&#xA;&lt;p&gt;Estou muito animado em lançar meu novo site pessoal! Depois de muito planejamento, finalmente decidi criar um espaço onde posso compartilhar meus conhecimentos, projetos e experiências no mundo do desenvolvimento.&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-que-hugo&#34;&gt;Por que Hugo?&lt;/h2&gt;&#xA;&lt;p&gt;Escolhi o &lt;a href=&#34;https://gohugo.io/&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;Hugo&#xD;&#xA;  &lt;svg id=&#34;external-link&#34; class=&#34;h-3 w-3 flex-shrink-0&#34;&#xD;&#xA;    fill=&#34;none&#34;&#xD;&#xA;    stroke=&#34;currentColor&#34;&#xD;&#xA;    viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt; como gerador de site estático pelas seguintes razões:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco. Mas segue o posts original abaixo&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Hey pessoal! Não poderia deixar passar a tradição de começar com um &amp;lsquo;Hello World&amp;rsquo; ao mergulhar em uma nova linguagem ou tecnologia. Desde a faculdade, aprendi que ignorar essa etapa traz má sorte para o aprendizado. E parece que não estou sozinho nessa crença, já que essa prática é seguida por tantos tutoriais e professores por aí. Mas será que existe mais por trás dessa tradição? Estou curioso e decidi investigar um pouco mais, então fiquem ligados que trago novidades em breve!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

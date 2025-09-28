@@ -4,14 +4,14 @@ date: "2025-09-27T22:10:15-03:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author: "Nidio Dolfini"
 authorTwitter: "nidiodolfini" #do not include @
-cover: ""
-tags: ["DevOps", "Go", "Hello World"]
+cover: "/images/posts/helloworld/1.jpg"
+tags: ["Hello World", "DevOps", "Go", "hugo"]
 keywords: ["", ""]
 description: ""
 showFullContent: false
 readingTime: false
 hideComments: false
-draft: false
+draft: true
 ---
 
 Hello World! Revisitado este posts foi escrito em 27/04/2024 ficou um bom tempo parado, entraram e sairam projetos e a vontade e a hora de começar a escrever acabou ficando para daqui a pouco. Mas segue o posts original abaixo...
