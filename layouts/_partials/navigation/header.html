@@ -1,13 +1,13 @@
-<header class="{{- if site.Params.stickyHeader -}}sticky top-0 z-50 {{ end }}mx-auto max-w-4xl px-4 py-6">
+<header class="{{- if site.Params.stickyHeader -}}sticky top-0 z-50{{ end }} mx-auto max-w-4xl px-4 py-6">
   <div
     class="border-border bg-card/80 flex items-center rounded-xl border px-6 py-4 shadow-sm backdrop-blur-sm">
     <!-- 桌面端布局 -->
     <div class="hidden w-full items-center md:flex">
       <!-- 左侧：站点 Logo -->
       <div class="flex items-center">
-        {{ if ne site.Params.logo.image "" }}
+        {{ if site.Params.logo.image }}
           <a
-            href="{{ if site.Params.logo.link }}{{ site.Params.logo.link | relLangURL }}{{ else }}{{ site.Home.RelPermalink }}{{ end }}"
+            href="{{ site.Params.logo.link | default site.Home.RelPermalink | relLangURL }}"
             class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
             aria-label="{{ site.Title }}">
             <img
@@ -15,13 +15,20 @@
               alt="{{ site.Title }}"
               class="h-full w-full object-cover" />
           </a>
+        {{ else if site.Params.logo.text }}
+          <a
+            href="{{ site.Home.RelPermalink }}"
+            class="text-primary hover:text-primary/90 flex h-10 w-10 items-center justify-center text-2xl font-bold font-mono transition-transform duration-200 hover:scale-105"
+            aria-label="{{ site.Title }}">
+            {{ site.Params.logo.text | safeHTML }}
+          </a>
         {{ else }}
           <!-- 默认 Logo：使用站点标题首字母 -->
           <a
             href="{{ site.Home.RelPermalink }}"
-            class="bg-primary text-primary-foreground hover:bg-primary/90 flex h-12 w-12 items-center justify-center rounded-full text-xl font-bold transition-transform duration-200 hover:scale-105"
+            class="bg-primary text-primary-foreground hover:bg-primary/90 flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold transition-transform duration-200 hover:scale-105"
             aria-label="{{ site.Title }}">
-            N
+            {{ substr site.Title 0 1 | upper }}
           </a>
         {{ end }}
       </div>
