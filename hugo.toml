@@ -96,6 +96,7 @@ colorScheme = 'default'
 [params.logo]
 image = ''
 link = '/'
+text = '>_'
 
 [params.favicon]
 svg = '/favicon.svg'
